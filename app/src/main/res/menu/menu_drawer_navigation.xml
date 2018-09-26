@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/corrente"
+            android:title="@string/item_navigation_drawer_corrente"
+            android:icon="@drawable/icone_corrente" />
+
+        <item android:id="@+id/potencia"
+            android:title="@string/item_navigation_drawer_potencia"
+            android:icon="@drawable/icone_potencia" />
+
+        <item android:id="@+id/temperatura"
+            android:title="@string/item_navigation_drawer_temperatura"
+            android:icon="@drawable/icone_temperatura" />
+
+        <item android:id="@+id/tensao"
+            android:title="@string/item_navigation_drawer_tensao"
+            android:icon="@drawable/icone_tensao" />
+
+    </group>
+
+    <item android:title="@string/item_navigation_drawer_comunicacao">
+        <menu>
+            <item android:id="@+id/ajuda"
+                android:title="@string/item_navigation_drawer_ajuda"
+                android:icon="@drawable/icone_ajuda"/>
+        </menu>
+    </item>
+
+</menu>

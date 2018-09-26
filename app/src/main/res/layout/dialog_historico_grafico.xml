@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_btn_gerar_grafico"
+        android:textColor="@color/colorPreto"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="@dimen/tamanho_text_principalDialogs"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_Dialogs">
+
+            <RadioButton
+                android:id="@+id/radioCorrente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPreto"
+                android:text="@string/item_navigation_drawer_corrente"/>
+
+            <RadioButton
+                android:id="@+id/radioPotencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPreto"
+                android:text="@string/item_navigation_drawer_potencia"/>
+
+            <RadioButton
+                android:id="@+id/radioTemperatura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPreto"
+                android:text="@string/item_navigation_drawer_temperatura"/>
+
+            <RadioButton
+                android:id="@+id/radioTensao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPreto"
+                android:text="@string/item_navigation_drawer_tensao" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_dialogs">
+
+        <TextView
+            android:id="@+id/text_data_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_data_inicio"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs"
+            android:layout_marginRight="@dimen/margin_rigth_dialogs"/>
+
+        <TextView
+            android:id="@+id/text_data_inicio_completa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_data_completa"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs" />
+
+        <TextView
+            android:id="@+id/text_hora_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_hora_inicio"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs"
+            android:layout_marginLeft="@dimen/margin_left_dialogs"
+            android:layout_marginRight="@dimen/margin_rigth_dialogs"/>
+
+        <TextView
+            android:id="@+id/text_hora_inicio_completa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_hora_completa"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/margin_top_dialogs">
+
+        <TextView
+            android:id="@+id/text_data_fim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_data_fim"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs"
+            android:layout_marginRight="@dimen/margin_rigth_dialogs"/>
+
+        <TextView
+            android:id="@+id/text_data_fim_completa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_data_completa"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs" />
+
+        <TextView
+            android:id="@+id/text_hora_fim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_hora_fim"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs"
+            android:layout_marginLeft="@dimen/margin_left_dialogs"
+            android:layout_marginRight="@dimen/margin_rigth_dialogs"/>
+
+        <TextView
+            android:id="@+id/text_hora_fim_completa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_text_hora_completa"
+            android:textColor="@color/colorPreto"
+            android:textSize="@dimen/tamanho_text_dialogs" />
+
+    </LinearLayout>
+
+</LinearLayout>

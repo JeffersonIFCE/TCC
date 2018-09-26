@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Monitor Fotovoltaico</string>
+    <string name="hello_world">Hello World</string>
+
+    <string name="dispositivos_pareados">Dispositivos Pareados</string>
+    <string name="procurar_dispositivos">Procurar Dispositivos</string>
+    <string name="aquisicao">Aquisição</string>
+    <string name="historico">Histórico</string>
+
+    <string name="menu_bar_visibilidade">Visibilidade</string>
+    <string name="menu_bar_pareados">Pareados</string>
+    <string name="menu_bar_proximos">Próximos</string>
+    <string name="menu_bar_desconectar">Desconectar</string>
+
+    <string name="salvar_dados">Salvar</string>
+    <string name="enviar_mensagem">Enviar</string>
+    <string name="edit_text_hint_enviar">Digite aqui</string>
+
+    <string name="item_navigation_drawer_corrente">Corrente</string>
+    <string name="item_navigation_drawer_potencia">Potência</string>
+    <string name="item_navigation_drawer_radiacao">Radiação</string>
+    <string name="item_navigation_drawer_tensao">Tensão</string>
+    <string name="item_navigation_drawer_temperatura">Temperatura ºC</string>
+    <string name="item_navigation_drawer_umidade">Umidade</string>
+    <string name="item_navigation_drawer_comunicacao">Comunicação</string>
+    <string name="item_navigation_drawer_ajuda">Ajuda</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="spinner_cancelar">cancelar</string>
+    <string name="spinner_ok">ok</string>
+    <string name="frequ_ncia_valor">Frequência Valor:</string>
+    <string name="frequ_ncia_tempo">Frequência Tempo:</string>
+    <string name="dialog_btn_exportar">Exportar</string>
+    <string name="dialog_btn_gerar_grafico">Gerar Gráfico</string>
+    <string name="dialog_text_data_inicio">Data Inicio: </string>
+    <string name="dialog_text_data_fim">Data Fim: </string>
+    <string name="dialog_text_data_completa">__/__/____</string>
+    <string name="dialog_text_hora_inicio">Hora Inicio: </string>
+    <string name="dialog_text_hora_fim">Hora fim: </string>
+    <string name="dialog_text_hora_completa">__:__:__</string>
+
+    <string-array name="spinner_valor">
+        <item>25V / 2A</item>
+        <item>50V / 4A</item>
+        <item>100V / 6A</item>
+    </string-array>
+
+    <string-array name="spinner_tempo_salvar">
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>5 horas</item>
+        <item>7 horas</item>
+        <item>8 horas</item>
+        <item>12 horas</item>
+    </string-array>
+</resources>

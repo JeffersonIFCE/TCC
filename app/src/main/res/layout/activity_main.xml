@@ -1,0 +1,69 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_drawler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atividade.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/action_bar"
+            android:id="@+id/action_bar">
+        </include>
+
+        <TextView
+            android:id="@+id/textSpace"
+            android:layout_below="@id/action_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_top_text_space"
+            android:text=""
+            android:textSize="@dimen/tamanho_msg_text_main" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_aquisicao"
+                android:layout_width="@dimen/width_btn_MainActivity"
+                android:layout_height="@dimen/height_btn_MainActivity"
+                android:onClick="DialogAquisicao"
+                android:background="@drawable/btn_retangulo"
+                android:textColor="@color/colorBranco"
+                android:text="@string/aquisicao"/>
+
+            <Button
+                android:id="@+id/Histórico"
+                android:layout_marginTop="@dimen/margin_top_btn_historico"
+                android:layout_width="@dimen/width_btn_MainActivity"
+                android:layout_height="@dimen/height_btn_MainActivity"
+                android:onClick="DialogHistorico"
+                android:background="@drawable/btn_retangulo"
+                android:textColor="@color/colorBranco"
+                android:text="@string/historico"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        app:headerLayout="@layout/header_navigation_drawler"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_drawer_navigation">
+
+</android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

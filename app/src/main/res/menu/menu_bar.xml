@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_visibilidade"
+        android:title="@string/menu_bar_visibilidade"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_dispositivos_pareados"
+        android:title="@string/menu_bar_pareados"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_dispositivos_proximos"
+        android:title="@string/menu_bar_proximos"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_desconectar"
+        android:title="@string/menu_bar_desconectar"
+        app:showAsAction="never"/>
+
+</menu>

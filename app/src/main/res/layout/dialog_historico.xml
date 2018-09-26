@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historico"
+        android:textColor="@color/colorPreto"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="@dimen/tamanho_text_principalDialogs"/>
+
+    <Button
+        android:layout_marginTop="@dimen/margin_top_Dialogs"
+        android:id="@+id/btn_exportar"
+        android:layout_width="@dimen/tamanho_btn_dialogs"
+        android:textColor="@color/colorPreto"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_btn_exportar"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_marginTop="@dimen/margin_top_dialogs"
+        android:id="@+id/btn_gerar_grafico"
+        android:layout_width="@dimen/tamanho_btn_dialogs"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPreto"
+        android:text="@string/dialog_btn_gerar_grafico"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

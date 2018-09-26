@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_text_space">15dp</dimen>
+    <dimen name="margin_bottom_List_Chat">80dp</dimen>
+    <dimen name="margin_top_List_Chat">120dp</dimen>
+
+    //MainActivity
+    <dimen name="margin_top_btn_historico">20dp</dimen>
+    <dimen name="width_btn_MainActivity">150dp</dimen>
+    <dimen name="height_btn_MainActivity">60dp</dimen>
+    <dimen name="tamanho_msg_text_main">20sp</dimen>
+
+    //SplahLogo
+    <dimen name="width_heigth_image_PROJETO">200dp</dimen>
+    <dimen name="width_heigth_image_IFCE">120dp</dimen>
+    <dimen name="tamanho_text_PROJETO">25sp</dimen>
+
+    //Dialogs
+    <dimen name="tamanho_text_principalDialogs">20sp</dimen>
+    <dimen name="margin_top_Dialogs">25dp</dimen>
+    <dimen name="tamanho_text_dialogs">15sp</dimen>
+    <dimen name="margin_top_dialogs">10dp</dimen>
+    <dimen name="margin_rigth_dialogs">5dp</dimen>
+    <dimen name="margin_left_dialogs">15dp</dimen>
+    <dimen name="tamanho_btn_dialogs">140dp</dimen>
+
+    //headerNavigationDrawler
+    <dimen name="padding_headerNavigation">5dp</dimen>
+    <dimen name="tamanho_header_navigation_drawler">160dp</dimen>
+    <dimen name="tamanho_header_navigation_image">130dp</dimen>
+    <dimen name="heigth_header_navigation_image">70dp</dimen>
+    <dimen name="margin_bottom_header_navigation_image">10dp</dimen>
+
+</resources>
